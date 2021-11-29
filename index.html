@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/animate.min.css">
+  <title>TILEK</title>
+  <script src="script/js.js" defer></script>
+  <script src="script/wow.min.js"></script>
+  <script src="script/sendmail.js"></script>
+  <script src="./sendmail.php"></script>
+  <script>
+      new WOW().init();
+  </script>
+</head>
+<body>
+<div class="main">
+  <nav class="navigation">
+    <img src="./img/wavesOpacity.svg" alt="">
+    <input type="checkbox" id="check">
+    <label for="check" class="checkBtn">&#9776;</label>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="face-page">Scroll Down
+    <img src="./img/arrow.png" alt="#">
+  </div>
+  <div class="icon-page">
+    <img src="./img/linkedin.png" alt="#">
+    <img src="./img/skype.png" alt="#">
+    <img src="./img/facebook.png" alt="#">
+    <img src="./img/telegram.png" alt="#">
+    <img src="./img/instagram.png" alt="#">
+    <img src="./img/github.png" alt="#">
+  </div>
+  <section class="paralax">
+    <div class="paralax-item p-item1"></div>
+    <div class="paralax-item p-item2"></div>
+    <div class="paralax-item p-item3"></div>
+    <div class="paralax-item p-item4"></div>
+  </section>
+  <section class="home section" id="home">
+    <div class="home-header">
+      <div class="home-header-text">Welcome</div>
+      <div class="home-header-disc">I Am TILEK</div>
+      <div class="home-header-disc">Frontend Developer(junior)</div>
+    </div>
+  </section>
+  <section class="skills section" id="skills">
+    <div class="navigationName wow">
+      Skills
+    </div>
+    <div class="skills-text">
+      <div class="skills-text-knowledge wow">
+        <div>HTML&&CSS</div>
+        <div class="progress">
+          <div class="html bar"></div>
+        </div>
+        <div>JavaScript</div>
+        <div class="progress">
+          <div class="js bar"></div>
+        </div>
+        <div>Vue js</div>
+        <div class="progress">
+          <div class="vue bar"></div>
+        </div>
+        <div>Figma</div>
+        <div class="progress">
+          <div class="figma bar"></div>
+        </div>
+      </div>
+      <div class="skills-text-knowledge wow">
+        <ul>
+          <li>ECMAScript(ES6)</li>
+          <li>Webpack</li>
+          <li>adaptive layout</li>
+          <li>json</li>
+          <li>Git</li>
+          <li>SVG</li>
+          <li>sass</li>
+          <li>stylus</li>
+          <li>CSS Frameworks</li>
+          <li>Vue frameworks, libraries</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="portfolio section" id="portfolio">
+    <div class="navigationName wow media">Portfolio</div>
+    <div class="portfolio-container">
+      <div class="portfolio-container-card wow">
+        <div class="portfolio-container-card-disc">
+          <h3>Shop</h3>
+        </div>
+        <div class="portfolio-container-card-content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci commodi consequatur ducimus enim eum
+            expedita id, illo illum, ipsum magnam maxime molestias num
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam amet animi autem blanditiis
+            cupiditate dicta dolorem, est explicabo impedit labore minus natus, nisi obcaecati pariatur perspiciatis
+            totam voluptate? Voluptatem.
+          </p>
+        </div>
+      </div>
+      <div class="portfolio-container-card wow">
+        <div class="portfolio-container-card-disc">
+          <h3>Messenger</h3>
+        </div>
+        <div class="portfolio-container-card-content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci commodi consequatur ducimus enim eum
+            expedita id, illo illum, ipsum magnam maxime molestias num
+          </p>
+        </div>
+      </div>
+      <div class="portfolio-container-card wow">
+        <div class="portfolio-container-card-disc">
+          <h3>Soon</h3>
+        </div>
+        <div class="portfolio-container-card-content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci commodi consequatur ducimus enim eum
+            expedita id, illo illum, ipsum magnam maxime molestias num
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about section" id="about">
+    <div class="navigationName wow">About</div>
+    <div class="about-case">
+      <div class="about-case-text wow">
+        Name:<br>
+        Date of birds:<br>
+        Address:<br>
+        Zip code:<br>
+        Email:<br>
+        Phone:<br>
+      </div>
+      <div class="about-case-text wow">
+        Tilek Talant Uulu<br>
+        December 07 1995<br>
+        Bishkek, Kyrgyzstan<br>
+        724813<br>
+        moldaliev47@gmail.com<br>
+        +996507014645(WhatsApp)<br>
+      </div>
+    </div>
+  </section>
+  <section class="contact section" id="contact">
+    <div class="contact-page wow">Contact Me</div>
+    <div class="contact-line"></div>
+    <div class="contact-disc">I'll Be Glad To Answer Your Questions</div>
+    <form action="#" id="form" class="contact-form" >
+      <label for="name"></label>
+      <input type="text" id="name" name="name" placeholder="Name" class="contact-form-input _req">
+      <label for="email"></label>
+      <input type="text" id="email" name="email" placeholder="Email address" class="contact-form-input _req _email">
+      <label for="msg"></label>
+      <textarea id="msg" name="message" class="contact-form-input _req" placeholder="Message"></textarea>
+      <button class="contact-form_btn" type="submit">Send</button>
+    </form>
+    <div class="contact-page">Social</div>
+    <div class="contact-line"></div>
+    <div class="contact-icon">
+      <img src="./img/linkedin.png" alt="#">
+      <img src="./img/skype.png" alt="#">
+      <img src="./img/facebook.png" alt="#">
+      <img src="./img/telegram.png" alt="#">
+      <img src="./img/instagram.png" alt="#">
+      <img src="./img/github.png" alt="#">
+    </div>
+  </section>
+</div>
+
+</body>
+</html>
+
