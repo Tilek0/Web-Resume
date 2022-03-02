@@ -336,7 +336,7 @@ body {
   .main .section {
     height: 80vh; }
   .main .icon-page {
-    width: 40%; }
+    width: 20%; }
   .main .navigation .checkBtn {
     display: block;
     z-index: 3; }
@@ -401,7 +401,7 @@ body {
   .main .face-page {
     left: 30%; }
   .main .icon-page {
-    width: 50%; }
+    width: 23%; }
   .main .home-header-text {
     font-size: 4rem; }
   .main .home-header-disc {
