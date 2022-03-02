@@ -19,4 +19,3 @@ window.addEventListener('scroll', function (e) {
   const item3 = document.getElementsByClassName('p-item3')[0].style = `transform: translate3d(${hr_2}px,0,0) scale(${z_4})`;
 })
 
-
