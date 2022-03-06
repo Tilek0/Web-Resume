@@ -84,7 +84,7 @@ body {
     position: absolute;
     top: 12%;
     left: 5%;
-    z-index: 2;
+    z-index: 4;
     width: 7%;
     display: flex;
     flex-direction: column;
@@ -395,6 +395,45 @@ body {
     }
   }
 }
+@media (max-height: 750px) {
+  .main {
+    .paralax {
+      .p-item3 {
+        background: url("../img/mountain.png") bottom/100% 75% no-repeat;
+      }
+    }
+  }
+}
+@media (max-height: 690px) {
+  .main {
+    .home {
+      &-header {
+        &-text {
+          font-size: 5rem;
+        }
+        &-disc {
+          font-size: 3rem;
+        }
+      }
+    }
+    .skills {
+      &-text {
+        &-knowledge {
+          padding: 2%;
+        }
+      }
+    }
+    .portfolio {
+      margin-top: 10%;
+      &-container {
+        margin-top: 6%;
+      }
+    }
+    .contact {
+      margin-top: 5%;
+    }
+  }
+}
 @media screen and (max-width: 1000px) {
   .main {
     .portfolio {
@@ -416,7 +455,7 @@ body {
       height: 80vh;
     }
     .icon-page {
-      width: 20%;
+      display: none;
     }
     .navigation {
       .checkBtn {
