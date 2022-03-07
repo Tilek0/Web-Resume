@@ -167,12 +167,14 @@ body {
       justify-content: space-evenly;
       align-items: baseline;
       font-size: 2rem;
+      word-wrap: normal;
       &-knowledge {
         background: rgba(0,0,0,.4);
         border-radius: 20px;
         padding: 3%;
         animation: bounceInUp;
         animation-duration: 1.5s;
+        word-wrap: normal;
       }
       .progress {
         padding: 1px;
@@ -203,6 +205,7 @@ body {
   }
 
   .portfolio {
+    margin-top: 5%;
     &-container {
       position: relative;
       display: flex;
@@ -395,12 +398,15 @@ body {
     }
   }
 }
-@media (max-height: 750px) {
+@media (max-height: 800px) {
   .main {
     .paralax {
       .p-item3 {
-        background: url("../img/mountain.png") bottom/100% 75% no-repeat;
+        background: url("../img/mountain.png") bottom/100% 50% no-repeat;
       }
+    }
+    .portfolio {
+      margin-top: 40%;
     }
   }
 }
@@ -424,7 +430,7 @@ body {
       }
     }
     .portfolio {
-      margin-top: 10%;
+      margin-top: 40%;
       &-container {
         margin-top: 6%;
       }
@@ -436,6 +442,18 @@ body {
 }
 @media screen and (max-width: 1000px) {
   .main {
+    .skills {
+      &-text {
+        &-knowledge {
+          padding: 2%;
+          ul {
+            li {
+              word-wrap: anywhere;
+            }
+          }
+        }
+      }
+    }
     .portfolio {
       height: 100%;
       &-container {
